@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:shirtlaser/adminUser:password
+  username: admin
+dashboardAuthID: vault:shirtlaser:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:shirtlaser:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:shirtlaser/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:shirtlaser/prow:hmacToken
